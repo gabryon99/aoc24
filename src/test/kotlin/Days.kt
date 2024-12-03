@@ -59,12 +59,12 @@ class Days {
     @Test
     fun `Day 3 - Part 1`() {
         val input = readFileContent("day03.txt")
-        assert(Day03.scanMemory(input, false) == 185797128L)
+        assert(Day03.scanMemory(input) == 185797128L)
     }
 
     @Test
     fun `Day 3 - Part 2`() {
         val input = readFileContent("day03.txt")
-        assert(Day03.scanMemory(input, true) == 89798695L)
+        assert(Day03.scanMemory(input) == 89798695L)
     }
 }
